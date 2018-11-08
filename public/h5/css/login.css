@@ -1,0 +1,15 @@
+@import url("common.css");
+.lt-wrapper a{
+	width: 90%;
+	font-size: 16px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+.lt-wrapper input{
+	margin: 10px auto;
+	display: block;
+	width: 90%;
+}

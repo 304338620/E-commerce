@@ -1,0 +1,98 @@
+@import url("common.css");
+.mui-table-view .mui-media-object {
+    max-width: 60px;
+    height: 60px;
+}
+.mui-slider-handle strong{
+	color: orangered;
+	margin-right: 3px;
+}
+.mui-slider-handle del{
+	font-size: 12px;
+}
+.mui-slider-handle .num{
+	float: right;
+}
+.mui-slider-handle .size{
+	font-size: 12px;
+}
+.mui-slider-handle input[type=checkbox]{
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+.cart_order{
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    background: #fff;
+    width: 100%;
+    z-index: 999;
+    padding-left: 20px;
+    font-size: 14px;
+    color: orangered;
+    font-weight: 600;
+}
+.cart_order a{
+    width: 100px;
+    text-align: center;
+    background: orangered;
+    display: block;
+    float: right;
+    color: #fff;
+}
+.cart_update{
+    text-align: left;
+}
+.p_number{
+    padding: 5px;
+    font-size: 14px;
+}
+.p_number .jian,.p_number .jia{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+.p_number input{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+.p_size{
+    padding: 5px;
+    font-size: 14px;
+}
+.p_size .btn_size{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.p_size .btn_size.now{
+    background: #fa672d;
+}
+.lt-content{
+	padding-bottom: 25px;
+}

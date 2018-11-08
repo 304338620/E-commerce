@@ -1,0 +1,74 @@
+@import url("common.css");
+.lt-header form{
+	height:100%;
+}
+.lt-header button{
+	position: absolute;
+	right: 0;
+	color: #fff;
+	top: 0;
+	height: 100%;
+	width: 40px;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: none;
+}
+.lt-header button span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: orangered;
+	line-height: 45px;
+}
+.lt-header input{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-left: 15px;
+}
+.category-left{
+	width: 30%;
+	height: 100%;
+}
+.category-left li{
+	height: 45px;
+	line-height: 45px;
+	background-color: orangered;
+	margin-top: 3px;
+}
+.category-left li a{
+	display: block;
+	height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.category-left .now a{
+	background-color: #FFFFFF;
+	color:orangered ;
+}
+.category-right{
+	width: 70%;
+}
+.category-right li{
+	float: left;
+	width: 33.3333%;
+	
+}
+.category-right li a{
+	display: block;
+	width: 100%;
+}
+.category-right li a p{
+	/*margin: 0;
+	padding: 0;*/
+	text-align: center;
+}
+.category-right li a img{
+	width: 100%;
+	height: auto;
+	display: block;
+}

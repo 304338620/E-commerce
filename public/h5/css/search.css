@@ -1,0 +1,74 @@
+@import url("common.css");
+.lt-search {
+	padding: 10px;
+	position: relative;
+}
+.lt-search input{
+	background-color: #FFFFFF;
+	text-align: left;
+	padding-left: 20px;
+	border: 1px solid orangered;
+	font-size: 14px;
+	margin: 0;
+}
+.lt-search a{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 1px solid orangered;
+	outline: none;
+	background-color: orangered;
+	color: #FFFFFF;
+}
+.order li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: #C0C0C0;
+	color: royalblue;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.order li span{
+	font-weight: lighter;
+	font-size: 8px;
+	vertical-align: middle;
+}
+.order .now{
+	background-color: orangered;
+	color: #FFFFFF;
+}
+.lt-product{
+	font-size: 0;
+	margin: 10px;
+}
+.lt-product a{
+	display: inline-block;
+	width: 50%;
+	padding: 5px;
+	box-shadow: 0 0 20px 2px #ccc;
+}
+.lt-product a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.lt-product a p{
+	text-overflow: ellipsis;
+	width: 100%;
+	text-align: center;
+	margin:  5px 0;
+}
+.lt-product a button{
+	display: block;
+	margin: 5px auto;
+}
+.lt-product a span{
+	color: orangered;
+}
+.lt-product a del{
+	font-size: 12px;
+}
